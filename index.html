@@ -14,11 +14,8 @@
       line-height: 1.6;
     }
 
- .hero p {
-  font-size: 18px;
-  color: #555;
-  margin-top: 10px;
-  min-height: 50vh;
+ .hero {
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,13 +25,17 @@
 }
 
 .logo-hero { 
-  filter: drop-shadow(0 4px 10px rgba(0,0,0,0.15));
+  filter: drop-shadow(0 4px 10px rgba(0,0,0,.15));
   display: block;
   width: 240px;
   max-width: min(240px, 60vw);
-}
   margin-bottom: 28px;
   animation: flotar 4s ease-in-out infinite;
+}
+ .hero p {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
 }
 
 @keyframes flotar {
